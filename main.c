@@ -2,16 +2,23 @@
 
 int main() {
     int t;
-    if (scanf("%d", &t) == 1) {
-        if (t < 15) {
-            printf("LANH\n");
-        } else if (t < 25) {
-            printf("MAT\n");
-        } else if (t < 35) {
-            printf("NONG\n");
-        } else {
-            printf("RAT_NONG\n");
-        }
+    scanf("%d", &t);
+    if (t < 15) {
+        printf("Phan loai: Lanh\n");
+        printf("Chuoi ket qua: LANH\n");
+    } 
+    else if (t < 25) 
+        printf("Phan loai: Mat\n");
+        printf("Chuoi ket qua: MAT\n");
+    } 
+    else if (t < 35) 
+        printf("Phan loai: Nong\n");
+        printf("Chuoi ket qua: NONG\n");
+    } 
+    else { 
+        printf("Phan loai: Rat nong\n");
+        printf("Chuoi ket qua: RAT_NONG\n");
     }
+
     return 0;
 }
