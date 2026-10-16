@@ -1,14 +1,14 @@
 #include <stdio.h>
+
 int main() {
-  int n;
-  printf ("nhap so nguyen n:");
-  scanf("%d", &n);
-  if (n % 2 == 0) 
-  {
-    printf("CHAN\n");
-  }
-  else {
+    int n;
+    scanf("%d", &n);
+
+    if (n % 2 == 0) {
+        printf("CHAN\n");
+    } else {
         printf("LE\n");
-  }
-  return 0;
+    }
+
+    return 0;
 }
