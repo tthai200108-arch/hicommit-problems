@@ -5,7 +5,7 @@ int main() {
     scanf("%lf %lf", &w, &h);
 
     double h_m = h / 100.0;
-    double bmi = w / (h_m * h_m);
+    double bmi = w / (h_m * h_m) + 1e-9;
 
     if (bmi < 18.5) {
         printf("UNDERWEIGHT\n");
