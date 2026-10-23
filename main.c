@@ -20,6 +20,9 @@ int main() {
         total = 50LL * 1678 + 50LL * 1734 + 100LL * 2014 + 100LL * 2536 + (long long)(k - 300) * 2834;
     } else {
         total = 50LL * 1678 + 50LL * 1734 + 100LL * 2014 + 100LL * 2536 + 100LL * 2834 + 2927LL * (k - 400);
-      
-      return 0;
+      }
+
+    printf("%lld\n", total);
+    return 0;
 }
+      return 0;
