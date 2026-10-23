@@ -3,6 +3,11 @@
 int main() {
   double dtb, drl;
   scanf("%lf %lf", &dtb, &drl);
+  if (dtb >= 9.0 && drl >=90) {
+    printf("HOC_BONG_XUAT_SAC\n");
+  } else if (dtb >= 8.0 && drt >= 90) {
+    printf("HOC_BONG_GIOI\n");
+  } else if (dtb <= 7.0 && drl )
   
   return 0;
 }
