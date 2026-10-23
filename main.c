@@ -7,12 +7,16 @@ int main() {
    double bmi = w / (h_m * h_m);
 
   if (bmi < 18.5 ) { 
-    prinft("UNDERWEIGHT\n");
-  }else if (bmi < 25.0 ) {
-    prinft("NORMAL\n");
+    printf("UNDERWEIGHT\n");
+  }else 
+    if (bmi < 25.0 ) {
+    printf("NORMAL\n");
   }else
-  
-    
+      if (bmi < 30 ) {
+     printf("OVERWEIGHT\n");
+  } else 
+      {
+     printf("OBESE\n");
   }
   return 0;
 }
