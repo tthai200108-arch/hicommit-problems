@@ -2,7 +2,7 @@
 int main() 
 {
   int code;
-   if(scanf("%d", &code) !=1) return 0;)
+   if(scanf("%d", &code) !=1) return 0;
   switch (code) {
     case 1:
         printf("XEP_LOAI_XUAT_SAC\n");
