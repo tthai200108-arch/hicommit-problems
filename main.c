@@ -15,7 +15,7 @@ int main()
         break;
     case 4:
         printf("XEP LOAI TRUNG BINH\n");
-        break
+        break;
       
     
   
