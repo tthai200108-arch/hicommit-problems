@@ -17,7 +17,7 @@ int main() {
         printf("D+\n");
   } else if (dtb >= 4.0){
         printf("D\n");
-  } esle {
+  } esle if (dtb <= 4.0) {
     printf("F\n");
   }    
   return 0;
