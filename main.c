@@ -25,4 +25,4 @@ int main() {
     printf("%lld\n", total);
     return 0;
 }
-      return 0;
+
