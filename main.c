@@ -1,11 +1,14 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+  double gpa, minScore;
+  int abs;
 
+  if (scanf("%lf %lf %d", &gpa, &minScore, &abs) != 3) {
     return 0;
+  }
+  if (abs > 3){
+    
+  }
+  return 0;
 }
