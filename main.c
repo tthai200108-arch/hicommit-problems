@@ -1,11 +1,11 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+  double d, tien;
+  scanf("%lf", &d);
 
-    return 0;
+  if (d <= 1) {
+    tien = d * 15000;
+  }
+  return 0;
 }
