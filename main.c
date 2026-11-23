@@ -5,4 +5,4 @@ int main(void) {
     if (scanf("%d %d %d", &d, &m, &y) != 3) {
         return 0;
     }
-  
+}
